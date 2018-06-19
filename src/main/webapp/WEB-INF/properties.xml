@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- To enable @RequestMapping process on type level and method level -->
+	<util:properties id="socialAuthProperties">
+		<!-- <prop key="www.google.com.consumer_key">4454441190-meueadgqmjif6io972obr98ea314so4c.apps.googleusercontent.com
+		</prop>
+		<prop key="www.google.com.consumer_secret">JkYaUSHlWWkwgI3oTGBaHoSz</prop> -->
+		
+		
+		<prop key="www.google.com.consumer_key">629015050741-io5buqono99ir8i689n5avmrlncoerpn.apps.googleusercontent.com
+		</prop>
+		<prop key="www.google.com.consumer_secret">AIzaSyAlxqxREZnXdaqUjt_IJsaL18HIVjwbDbY</prop>
+
+		<prop key="api.login.yahoo.com.consumer_key">dj0yJmk9VTdaSUVTU3RrWlRzJmQ9WVdrOWNtSjZNMFpITm1VbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1iMA--
+		</prop>
+		<prop key="api.login.yahoo.com.consumer_secret">1db3d0b897dac60e151aa9e2499fcb2a6b474546</prop>
+
+		<prop key="twitter.com.consumer_key">KnGRDgV2WvC2ZlUGXtafKGkb7</prop>
+		<prop key="twitter.com.consumer_secret">OhP3Q0FVuFI8t3OBBALEemf8x8l8leYQkpjC6TX1H7qGqQ3WbH
+		</prop>
+
+		<prop key="graph.facebook.com.consumer_key">1074764802591143</prop>
+		<prop key="graph.facebook.com.consumer_secret">90aefd55049769ff147e65e0d24694dc</prop>
+
+		<prop key="api.linkedin.com.consumer_key">75txy8ouuifq80</prop>
+		<prop key="api.linkedin.com.consumer_secret">6BCNLXyQumN3xwR1</prop>
+
+	</util:properties>
+</beans>
